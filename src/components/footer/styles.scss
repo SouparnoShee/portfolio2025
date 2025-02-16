@@ -1,0 +1,55 @@
+.footer {
+  .foot1 {
+    min-height: 30vh;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: start;
+      gap: 30px;
+      padding: 20px;
+    }
+    .div1,
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 15px;
+      @media (max-width: 768px) {
+        align-items: center;
+        width: 100%;
+      }
+      h2 {
+        margin-bottom: 13px;
+        font-size: 30px;
+        font-weight: 800;
+      }
+      span,
+      .link {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+    .maps {
+      align-items: center;
+      .map {
+        outline: none;
+        border: none;
+        box-shadow: 4px 4px 1px #000;
+        border-radius: 25px;
+        width: 90%;
+      }
+    }
+  }
+  .foot2 {
+    background-color: #212121;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+}
