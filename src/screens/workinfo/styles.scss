@@ -11,6 +11,11 @@
     background-color: #e6e6e6;
     text-align : center;
     padding: 20px 10px;
+h1{
+@media(max-width: 500px){
+font-size: 20px;
+}
+}
 
     .og-link {
       display: flex;
